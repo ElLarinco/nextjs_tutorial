@@ -1,0 +1,26 @@
+.post {
+    box-shadow: 3px 3px 5px 2px gainsboro;
+    padding: .5rem;
+    margin: 1rem 0;
+}
+.post_pointer {
+    box-shadow: 3px 3px 5px 2px gainsboro;
+    padding: .5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.postTitle {
+    text-transform: capitalize;
+}
+.btn {
+    cursor: pointer;
+    border: inherit;
+    padding: .5rem .75rem;
+    background-color: var(--primary);
+    color: var(--light);
+    font-size: 1.2em;
+    transition: all .15s ease-in-out;
+}
+.btn:hover {
+    filter: brightness(110%);
+}

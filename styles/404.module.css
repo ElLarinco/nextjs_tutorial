@@ -1,0 +1,8 @@
+.container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container > a {
+    text-decoration: underline;
+}
